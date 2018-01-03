@@ -1,0 +1,121 @@
+##################   Provenance   #############
+int run
+int lumiblock
+int event
+
+####################   Global   ###################
+float weight
+float w_btag
+float w_btag_gh
+float w_pu
+float w_pu_rpv
+float w_isr
+float w_toppt
+float w_lep
+std::vector<float> w_pdf
+float eff_trig
+int npv
+int ntrupv
+float ntrupv_mean
+float met
+float met_phi
+float ht
+float mht
+float mt
+
+std::vector<bool> trig;
+bool stitch
+bool stitch_ht
+bool pass
+bool json7p65
+bool json12p9
+bool fromGS
+
+##################   MC   ################
+int ntruleps
+int ntrumus
+int ntruels
+int ntrutaush
+int ntrutausl
+
+##################   Leptons   ################
+int nleps
+
+int nmus
+int nvmus
+std::vector<float> mus_pt
+std::vector<float> mus_eta
+std::vector<float> mus_phi
+std::vector<bool> mus_sigid
+std::vector<float> mus_d0
+std::vector<float> mus_dz
+std::vector<int> mus_charge
+
+int nels
+int nvels
+std::vector<float> els_pt
+std::vector<float> els_eta
+std::vector<float> els_sceta
+std::vector<float> els_phi
+std::vector<bool> els_sigid
+std::vector<bool> els_ispf
+std::vector<float> els_d0
+std::vector<float> els_dz
+std::vector<int> els_charge
+
+###################   Jets   ##################
+int njets
+int nbl
+int nbm
+int nbt
+
+std::vector<float> jets_pt
+std::vector<float> jets_eta
+std::vector<float> jets_phi
+std::vector<float> jets_m
+std::vector<float> jets_csv
+std::vector<bool> jets_islep
+std::vector<int>   jets_fjet_index
+std::vector<int>   jets_fjet08_index
+std::vector<int>   jets_hflavor
+
+std::vector<float> dr_bb
+
+################  Fat Jets   ##################
+int nfjets
+float mj12
+float mj
+std::vector<float> fjets_pt
+std::vector<float> fjets_eta
+std::vector<float> fjets_phi
+std::vector<float> fjets_m
+std::vector<float> fjets_sumcsv
+std::vector<float> fjets_poscsv
+std::vector<int> fjets_btags
+std::vector<int> fjets_nconst
+
+int nfjets08
+float mj08
+std::vector<float> fjets08_pt
+std::vector<float> fjets08_eta
+std::vector<float> fjets08_phi
+std::vector<float> fjets08_m
+std::vector<float> fjets08_sumcsv
+std::vector<float> fjets08_poscsv
+std::vector<int> fjets08_btags
+std::vector<int> fjets08_nconst
+
+################  syst   ##################
+std::vector<float> sys_bctag
+std::vector<float> sys_udsgtag
+std::vector<float> sys_pu
+std::vector<float> sys_lep
+std::vector<float> sys_mur
+std::vector<float> sys_muf
+std::vector<float> sys_murf
+std::vector<float> sys_isr
+std::vector<float> sys_ht
+std::vector<float> sys_mj12
+std::vector<int>   sys_njets
+std::vector<int>   sys_nbm
+std::vector<bool>  sys_pass
